@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create mobile phone</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Create mobile phone</h1>
+		<button onclick="alertM()">Click to see</button> 
+		<script>
+			function alertM() {
+			var mobile= {
+				model: 		'Samsung',
+				year:		2015,
+				isBlack: 	false,
+				feature:	['Wi-Fi', 'LTE+', 'LCD'],
+				sellers:	{US:'Amazon', EMEA:'ebay', APAC: 'alliexpress'},
+				
+	
+			};
+			
+			console.log(mobile)
+			alert("My phone is: " +mobile.model +' Year of production: ' +mobile.year +' Features: ' +mobile.feature, +' Sellers: ' +mobile.sellers);
+			
+			
+			
+			}
+			
+	
+		
+			
+		</script>
+	</body>
+</html>
